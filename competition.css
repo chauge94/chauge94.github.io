@@ -1,0 +1,119 @@
+
+body {
+	font-family: helvetica, sans-serif;
+	margin: 0 auto;
+	max-width: 600px; 
+	background: white; 
+}
+div {
+	height: 200px;
+	background-size: cover;
+	position: relative;
+	margin: 40px 0 0 0;
+	border-radius: 12px;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+	text-align: center;
+	color: pink;
+  font-size: 100px;
+	margin: 60px 0 0 0;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+	text-align: center;
+	color:  grey;
+  font-size: 40px;
+	margin: 0px 0 40px 0;
+}
+
+ li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      color: pink;
+      font-family: 'Francois One', sans-serif;
+      margin: 0 0 40px 15px;
+    }
+
+form {
+  text-align: right;
+  height: 50px;
+}
+	p {
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 25px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 80px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://www.peachentertainments.co.uk/wp-content/uploads/2014/12/candy_400x250.jpg");
+}
+.second{
+  background-image: url("http://3dprintingindustry.com/wp-content/uploads/2014/08/chocolates-3d-printing.jpg");
+}
+.dessert{
+  background-image: url("http://www.weddingsbylilly.com/wp-content/uploads/2012/01/dessert-buffet-recipes.jpg");
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 40px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+    line-height: 12px;
+  }
+
+  #social-buttons button {
+ color: white; 
+ }
+.btn - twitter {  
+background-color: pink;  
+border-color: #FAAFBE;
+}
+.btn-facebook {
+ background-color: #4868ac;
+ border-color: #314776; 
+ }
+.btn-pinterest {  
+background-color: #b62f26;  
+border-color: #b62f26;
+}
+
